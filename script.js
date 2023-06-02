@@ -2,9 +2,9 @@ let listItems = [];
 
 function add(){
     let items = {
-        id: document.getElementById('name').value,
+        id: listItems.indexOf(),
         name: document.getElementById('boxie').value,
-        createdDate: document.getElementById('age').value,
+        createdDate: new Date(),
     };
 
     listItems.push(items);
