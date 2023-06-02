@@ -1,0 +1,22 @@
+.container{
+    position:relative;
+    text-align:center;
+    margin-top:200px;
+    margin-bottom:100px;
+    padding:0;
+    border:5px;
+    border-color: black;
+}
+button:hover{
+    background-color:aliceblue;
+    color: black;
+}
+body{
+    background: linear-gradient(to right, black 0%, blue 15%, blue 30%, lightblue 55%, grey 70%, white 85%, white 100%);
+}
+button{
+    border:none;
+   padding: 10px 15px;
+    background-color: grey;
+    color:white;
+}
